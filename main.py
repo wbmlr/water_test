@@ -12,7 +12,7 @@ app = FastAPI(
 
 
 
-with open('/home/roadrashfifa21/ML/MLOPS - Project 1/ml_pipeline/model.pkl','rb') as f:
+with open('model.pkl','rb') as f:
     model = pickle.load(f)
 
 
